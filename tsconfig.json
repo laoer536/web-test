@@ -9,7 +9,7 @@
   "include": [
     "src",
     "test",
-    "build.config.ts"
+    "axios"
   ],
   "exclude": ["node_modules"]
 }
