@@ -1,0 +1,4 @@
+{
+  "extends": ["code-style-lint-ts"],
+  "rules": {}
+}
