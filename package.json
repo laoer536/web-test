@@ -12,6 +12,7 @@
   "devDependencies": {
     "axios": "^1.5.0",
     "cheerio": "1.0.0-rc.12",
+    "consola": "^3.2.3",
     "edge-paths": "^3.0.5",
     "eslint": "^8.49.0",
     "eslint-config-code-style-lint-ts": "^3.0.7",
