@@ -4,20 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:pup": "jiti ./src/puppeteer-test.ts"
+    "playwright:codegen": "playwright codegen",
+    "playwright:test": "playwright test --ui",
+    "playwright:report": "playwright show-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "axios": "^1.5.0",
-    "cheerio": "1.0.0-rc.12",
-    "edge-paths": "^3.0.5",
-    "eslint": "^8.49.0",
-    "eslint-config-code-style-lint-ts": "^3.0.7",
-    "jiti": "^1.20.0",
-    "prettier": "^3.0.3",
-    "puppeteer-core": "^21.2.1",
-    "typescript": "^5.2.2"
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11",
+    "eslint": "8.56.0",
+    "eslint-config-code-style-lint-ts": "^3.0.9",
+    "prettier": "^3.3.3"
   }
 }

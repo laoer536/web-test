@@ -1,7 +1,6 @@
-.vscode
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
 .idea
-node_modules
-*.log
-.DS_Store
-coverage
-dist
