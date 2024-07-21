@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "playwright:codegen": "playwright codegen",
-    "playwright:test": "playwright test --ui",
+    "playwright:test-ui": "playwright test --ui",
+    "playwright:test": "playwright test",
     "playwright:report": "playwright show-report"
   },
   "keywords": [],
